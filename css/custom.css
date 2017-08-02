@@ -6,6 +6,19 @@ hr {
 	border-color: lightgray;
 }
 
+.speaker-person {
+	
+}
+
+.speaker-photo {
+	width: 100%;
+}
+
+.speaker-title {
+	padding-top: 3%;
+	text-align: center;
+}
+
 .speaker-description {
 	text-align: justify;
 }
@@ -14,6 +27,17 @@ hr {
 	opacity: 0.90;
 }
 
-.landing-page-banner{
-  background-image: url('../img/banners/banner_intro_3.svg');
+.landing-page-banner {
+	background-image: url('../img/banners/banner_intro_3.svg');
+}
+
+.mobile-padding {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.schedule-table {
+	width: 100%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
