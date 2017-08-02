@@ -14,6 +14,6 @@ hr {
 	opacity: 0.90;
 }
 
-.map-row {
-
+.landing-page-banner{
+  background-image: url('../img/banners/banner_intro_3.svg');
 }
