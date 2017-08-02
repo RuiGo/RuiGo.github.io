@@ -10,6 +10,11 @@ hr {
 	
 }
 
+.jury-person {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
 .speaker-photo {
 	width: 100%;
 }
@@ -34,6 +39,11 @@ hr {
 .mobile-padding {
 	padding-left: 5%;
 	padding-right: 5%;
+}
+
+.mobile-sm-padding-vertical {
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .schedule-table {
