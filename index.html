@@ -365,7 +365,7 @@
     <script src="js/agency.min.js"></script>
 
     <script>
-    var countDownDate = new Date("Sep 8, 2017 19:00:00").getTime();
+    var countDownDate = new Date("Sep 8, 2017 15:05:00").getTime();
 
     function CalculateTime() {
         var now = new Date().getTime();
@@ -378,9 +378,9 @@
 
         document.getElementById("countdown_timer").innerHTML = days + "d : " + hours + "h : " + minutes + "m : " + seconds + "s ";
 
-        if (distance < 0) {
+        if (distance <= 0) {
             clearInterval(x);
-            document.getElementById("countdown_timer").innerHTML = "HURRAY! GET READY!";
+            document.getElementById("countdown_timer").innerHTML = "HURRAY! GET READY FOR THE THEME!";
         }
     }
 
