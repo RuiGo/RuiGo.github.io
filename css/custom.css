@@ -57,8 +57,29 @@ hr {
 	padding-right: 3%;
 }
 
+.game-others {
+	text-align: center
+}
+
+.game-winners {
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+.game-link {
+	color: #c68510;
+	padding-left: 7px;
+}
+
 .game-logo {
 	width: auto;
-	max-width: 100%;
-	height: 10%;
+	max-height: 500px;
+}
+
+.game-description {
+	text-align: justify;
+}
+
+.game-section-link {
+
 }
